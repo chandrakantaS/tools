@@ -1,7 +1,7 @@
 {
   "name": "tools",
   "version": "1.0.0",
-  "description": "Command line tool",
+  "description": "Command line tool to encrypt/decrypt files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
   "author": "",
 
   "bin": {
-    "client-repo": "./index.js"
+    "enc": "converter/index.js"
   }
 }
